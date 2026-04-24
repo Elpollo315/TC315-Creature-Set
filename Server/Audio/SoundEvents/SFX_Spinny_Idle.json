@@ -1,0 +1,24 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Spinny/spinny_idle1.ogg",
+        "Sounds/Spinny/spinny_idle2.ogg",
+        "Sounds/Spinny/spinny_idle3.ogg",
+        "Sounds/Spinny/spinny_idle4.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -4,
+        "MaxPitch": 2,
+        "MinVolume": -10
+      },
+      "Probability": 60,
+      "Volume": 0
+    }
+  ],
+  "MaxInstance": 2,
+  "Volume": -9.0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_NPC_Rattie",
+  "Parent": "SFX_Attn_Quiet"
+}

@@ -1,0 +1,51 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Livestock",
+  "Modify": {
+    "Appearance": "SpinnywithFlower",
+    "AttitudeGroup": "PreyBig",
+    "FlockArray": [
+      "Enemy_Spinny"
+    ],
+    "AttractiveItemSet": [
+      "Tool_Fertilizer",
+      "Plant_Crop_Lettuce_Item"
+    ],
+    "DropList": "Drop_Spinny_Root",
+    "MaxHealth": 100,
+    "MaxSpeed": 6,
+    "ViewRange": 15,
+    "ViewSector": 320,
+    "HearingRange": 6,
+    "AlertedRange": 11,
+    "AlertedActionRange": 3,
+    "AbsoluteDetectionRange": 1,
+    "ProduceItem": "Plant_Fruit_SpinnyBerry",
+    "IsHarvestable": true,
+    "HarvestDropList": "Drop_Spinny_Root_Harvest",
+    "HarvestInteractionContext": "Shear",
+    "HarvestInteractionRequiredItems": [
+      "Tool_Shears_Basic"
+    ],
+    "HarvestModelSlot": "Fleece",
+    "HarvestModelAttachmentHarvestable": "Wool",
+    "HarvestModelAttachmentHarvested": "",
+    "HarvestTimeout": [
+      "PT11H",
+      "PT14H"
+    ],
+    "HarvestParticles": "Sheep_Wool_Shear",
+    "HarvestSound": "SFX_Sheep_Sheared",
+    "IsMemory": true,
+    "MemoriesCategory": "Critter",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Tammed Spinny",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

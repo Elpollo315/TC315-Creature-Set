@@ -1,0 +1,354 @@
+{
+  "DisplayNameKey": "Rattiz Engineer",
+  "RefreshInterval": {
+    "Days": 3
+  },
+  "RestockHour": 6,
+  "TradeSlots": [
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Food_Cheese",
+          "Quantity": 4
+        },
+        "Input": [
+          {
+            "ItemId": "Ingredient_Life_Essence",
+            "Quantity": 20
+          }
+        ],
+        "Stock": 10
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Ingredient_Bar_Copper",
+          "Quantity": 4
+        },
+        "Input": [
+          {
+            "ItemId": "Food_Cheese",
+            "Quantity": 2
+          }
+        ],
+        "Stock": 10
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": {
+          "ItemId": "Ingredient_Bar_Iron",
+          "Quantity": 2
+        },
+        "Input": [
+          {
+            "ItemId": "Food_Cheese",
+            "Quantity": 2
+          }
+        ],
+        "Stock": 10
+      }
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 3,
+      "Trades": [
+        {
+          "Weight": 50,
+          "Output": {
+            "ItemId": "Bench_Salvage",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            10,
+            20
+          ]
+        },
+        {
+          "Weight": 30,
+          "Output": {
+            "ItemId": "Rail_Kart",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            10,
+            20
+          ]
+        },
+        {
+          "Weight": 30,
+          "Output": {
+            "ItemId": "Bench_Weapon",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            10,
+            20
+          ]
+        },
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Weapon_Crossbow_Iron",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            4,
+            8
+          ]
+        },
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Weapon_Deployable_Turret",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 4
+            }
+          ],
+          "Stock": [
+            4,
+            8
+          ]
+        },
+        {
+          "Weight": 40,
+          "Output": {
+            "ItemId": "Weapon_Bomb",
+            "Quantity": 4
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 3
+            }
+          ],
+          "Stock": [
+            4,
+            8
+          ]
+        },
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Glider",
+            "Quantity": 1
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 4
+            }
+          ],
+          "Stock": [
+            4,
+            8
+          ]
+        },
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Metal_Iron_Pipe_Long",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            4,
+            8
+          ]
+        },
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Metal_Iron_Copper_Long",
+            "Quantity": 24
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            4,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 3,
+      "Trades": [
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Metal_Bronze_Pipe_Long",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            10
+          ]
+        },
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Metal_Bronze_Pipe_Long",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            10
+          ]
+        },
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Metal_Copper_Pipe_Large",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            10
+          ]
+        },
+        {
+          "Weight": 20,
+          "Output": {
+            "ItemId": "Metal_Iron_Pipe_Large",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 3
+            }
+          ],
+          "Stock": [
+            10
+          ]
+        },
+        {
+          "Weight": 40,
+          "Output": {
+            "ItemId": "Metal_Bronze_Pipe_Large",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 3
+            }
+          ],
+          "Stock": [
+            5,
+            10
+          ]
+        },
+        {
+          "Weight": 40,
+          "Output": {
+            "ItemId": "Food_Cheese",
+            "Quantity": 4
+          },
+          "Input": [
+            {
+              "ItemId": "Ore_Copper",
+              "Quantity": 5
+            }
+          ],
+          "Stock": [
+            5,
+            10
+          ]
+        },
+        {
+          "Weight": 40,
+          "Output": {
+            "ItemId": "Food_Cheese",
+            "Quantity": 4
+          },
+          "Input": [
+            {
+              "ItemId": "Ore_Iron",
+              "Quantity": 4
+            }
+          ],
+          "Stock": [
+            5,
+            10
+          ]
+        },
+        {
+          "Weight": 40,
+          "Output": {
+            "ItemId": "Rail",
+            "Quantity": 16
+          },
+          "Input": [
+            {
+              "ItemId": "Food_Cheese",
+              "Quantity": 2
+            }
+          ],
+          "Stock": [
+            5,
+            10
+          ]
+        }
+      ]
+    }
+  ]
+}

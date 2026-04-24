@@ -1,0 +1,25 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/GoblinGirl/GoblinGirl_hit1.ogg",
+        "Sounds/GoblinGirl/GoblinGirl_hit2.ogg",
+        "Sounds/GoblinGirl/GoblinGirl_hit3.ogg",
+        "Sounds/GoblinGirl/GoblinGirl_hit4.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2,
+        "MinVolume": -5
+      },
+      "Probability": 55,
+      "StartDelay": 0.1,
+      "Volume": 0
+    }
+  ],
+  "MaxInstance": 2,
+  "Volume": -4.0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_NPC_Rattie",
+  "Parent": "SFX_Attn_Moderate"
+}

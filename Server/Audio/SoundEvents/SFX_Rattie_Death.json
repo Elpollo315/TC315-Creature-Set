@@ -1,0 +1,21 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Rattie/rattieded1.ogg",
+        "Sounds/Rattie/rattieded2.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2,
+        "MinVolume": -3
+      },
+      "Volume": 0
+    }
+  ],
+  "MaxInstance": 5,
+  "Volume": -4.0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_NPC_Rattie",
+  "Parent": "SFX_Attn_Moderate"
+}

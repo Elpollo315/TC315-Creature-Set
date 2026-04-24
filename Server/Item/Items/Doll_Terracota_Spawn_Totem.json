@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "Terracota Doll Spawner Spell"
+  },
+  "Quality": "Epic",
+  "PlayerAnimationsId": "Item",
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "SpawnNPC",
+          "EntityId": "Golem_Terracota_Doll",
+          "Next": {
+            "Type": "ModifyInventory",
+            "AdjustHeldItemQuantity": -1
+          },
+          "SpawnOffset": {
+            "X": 0,
+            "Y": 0.5,
+            "Z": 0
+          }
+        }
+      ]
+    }
+  },
+  "Model": "Items/DollRoll.blockymodel",
+  "Texture": "Items/Terracota_Roll.png",
+  "Icon": "Icons/ItemsGenerated/Doll_Terracota_Spawn_Totem.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Soil_Clay",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Plant_Crop_Pumpkin_Item",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ]
+      }
+    ],
+    "TimeSeconds": 3
+  },
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      0,
+      30,
+      15
+    ],
+    "Translation": [
+      2,
+      -14
+    ]
+  }
+}

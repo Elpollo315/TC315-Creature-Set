@@ -1,0 +1,17 @@
+{
+  "Environments": [
+    "Env_Zone3_Forests"
+  ],
+  "NPCs": [
+    {
+      "Weight": 4,
+      "SpawnBlockSet": "Soil",
+      "Id": "Enemy_Spinny",
+      "Flock": "Group_Small"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

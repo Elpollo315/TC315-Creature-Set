@@ -1,0 +1,21 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_T315_GolemDolls2",
+  "Modify": {
+    "Appearance": "TerracotaDoll",
+    "DropList": "Drop_Terracota_Doll",
+    "MaxHealth": 200,
+    "IsMemory": true,
+    "MemoriesCategory": "Kweebec",
+    "MemoriesNameOverride": "Porcelain_Doll",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Porcelain Doll",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Rattie/rattieidle1.ogg",
+        "Sounds/Rattie/rattieidle2.ogg",
+        "Sounds/Rattie/rattieidle3.ogg",
+        "Sounds/Rattie/rattieidle4.ogg",
+        "Sounds/Rattie/rattieidle5.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -4,
+        "MaxPitch": 2,
+        "MinVolume": -10
+      },
+      "Probability": 60,
+      "Volume": 0
+    }
+  ],
+  "MaxInstance": 2,
+  "Volume": -9.0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_NPC_Rattie",
+  "Parent": "SFX_Attn_Quiet"
+}

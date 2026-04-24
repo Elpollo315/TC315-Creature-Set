@@ -1,0 +1,21 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/GoblinGirl/GoblinGirl_dead1.ogg",
+        "Sounds/GoblinGirl/GoblinGirl_dead2.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -2,
+        "MaxPitch": 2,
+        "MinVolume": -3
+      },
+      "Volume": 0
+    }
+  ],
+  "MaxInstance": 5,
+  "Volume": -4.0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_NPC_Rattie",
+  "Parent": "SFX_Attn_Moderate"
+}

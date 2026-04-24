@@ -1,0 +1,60 @@
+{
+  "TranslationProperties": {
+    "Name": "Spinny Berry",
+    "Description": "server.items.Plant_Fruit_Pinkberry.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Plant_Fruit_SpinnyBerry.png",
+  "Parent": "Template_Fruit",
+  "BlockType": {
+    "CustomModel": "Items/SpinnyBerrie.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/SpinnyBerrie.png",
+        "Weight": 1
+      }
+    ],
+    "VariantRotation": "UpDown",
+    "Opacity": "Transparent",
+    "Light": {
+      "Color": "#c33",
+      "Radius": 7
+    },
+    "BlockSoundSetId": "Mushroom",
+    "BlockParticleSetId": "Dust",
+    "ParticleColor": "#f05872"
+  },
+  "InteractionVars": {
+    "Consume_Charge": {
+      "Interactions": [
+        {
+          "Parent": "Consume_Charge_Food_T1_Inner",
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Food_Eat",
+                "Color": "#F8619C",
+                "TargetNodeName": "Mouth",
+                "TargetEntityPart": "Entity"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      22.5,
+      119.25,
+      22.5
+    ],
+    "Translation": [
+      -6,
+      -8
+    ]
+  },
+  "Scale": 2,
+  "DropOnDeath": true,
+  "Quality": "Common"
+}

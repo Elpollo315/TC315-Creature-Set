@@ -1,0 +1,16 @@
+{
+  "Groups": {
+    "Friendly": [
+      "PorcelainDolls_Group"
+    ],
+    "Hostile": [
+      "Trork",
+      "Zombie",
+      "Skeleton",
+      "Goblin",
+      "Outlander",
+      "Scarak",
+      "Undead"
+    ]
+  }
+}

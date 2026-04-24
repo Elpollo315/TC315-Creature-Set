@@ -1,0 +1,21 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Rattie_Guard",
+  "Modify": {
+    "Appearance": "Rattie_Guard",
+    "DropList": "Drop_Kweebec_Sapling_Razorleaf",
+    "MaxHealth": 105,
+    "IsMemory": true,
+    "MemoriesCategory": "Critter",
+    "MemoriesNameOverride": "Rattie",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Rattie Guard",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Goblin_Scrapper",
+  "Modify": {
+    "_CombatConfig": "CAE_Goblin_Scrapper",
+    "MaxHealth": 56,
+    "Appearance": "Gobbo_Girl",
+    "IsMemory": true,
+    "MemoriesCategory": "Goblin",
+    "MemoriesNameOverride": "NPC_Gobbo_Enemy",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "Gobbo Gal",
+      "Description": "Gobbo Gal"
+    }
+  }
+}

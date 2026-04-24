@@ -1,0 +1,63 @@
+{
+  "TranslationProperties": {
+    "Name": "Spinny Seed Spawner"
+  },
+  "Quality": "Epic",
+  "PlayerAnimationsId": "Item",
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "SpawnNPC",
+          "EntityId": "Tamed_Spinny",
+          "Next": {
+            "Type": "ModifyInventory",
+            "AdjustHeldItemQuantity": -1
+          },
+          "SpawnOffset": {
+            "X": 0,
+            "Y": 0.5,
+            "Z": 0
+          }
+        }
+      ]
+    }
+  },
+  "Model": "Items/SpinnySeedBag.blockymodel",
+  "Texture": "Items/SpinnySeeds.png",
+  "Icon": "Icons/ItemsGenerated/Spinny_Spawn_Seeds.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Plant_Fruit_SpinnyBerry",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 24
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Seeds"
+        ]
+      }
+    ],
+    "TimeSeconds": 3
+  },
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      0.0,
+      30.0,
+      15.0
+    ],
+    "Translation": [
+      3,
+      -12
+    ]
+  }
+}
