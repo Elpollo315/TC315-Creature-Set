@@ -1274,5 +1274,39 @@
       "Z": 2.75,
       "Y": 0.4
     }
+  },
+  "RandomAttachmentSets": {
+    "BaseColor": {
+      "0": {
+        "Model": "Characters/Doll_Clothes.blockymodel",
+        "Weight": 8,
+        "Texture": "Characters/Doll_Clothes.png"
+      },
+      "1": {
+        "Model": "Characters/Doll_Clothes.blockymodel",
+        "Texture": "Characters/Doll_Clothes_yellow.png",
+        "Weight": 8
+      },
+      "2": {
+        "Model": "Characters/Doll_Clothes.blockymodel",
+        "Texture": "Characters/Doll_Clothes_red.png",
+        "Weight": 8
+      },
+      "3": {
+        "Model": "Characters/Doll_Clothes.blockymodel",
+        "Weight": 8,
+        "Texture": "Characters/Doll_Clothes_purple.png"
+      },
+      "4": {
+        "Model": "Characters/Doll_Clothes.blockymodel",
+        "Weight": 8,
+        "Texture": "Characters/Doll_Clothes_orange.png"
+      },
+      "5": {
+        "Model": "Characters/Doll_Clothes.blockymodel",
+        "Weight": 8,
+        "Texture": "Characters/Doll_Clothes_blue.png"
+      }
+    }
   }
 }
